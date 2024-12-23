@@ -49,3 +49,4 @@
 
 - ![scrinshot](https://github.com/Evgenii-379/08-ansible-04-role/blob/main/Снимок%20экрана%202024-12-23%20002000.png)
 - ![scrinshot](https://github.com/Evgenii-379/08-ansible-04-role/blob/main/Снимок%20экрана%202024-12-22%20212847.png)
+
