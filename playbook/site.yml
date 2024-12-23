@@ -1,0 +1,17 @@
+# site.yml
+---
+- hosts: clickhouse
+  become: true
+  roles:
+    - clickhouse-role
+
+- hosts: vector
+  become: true
+  roles:
+    - vector-role
+
+- hosts: lighthouse
+  become: true
+  roles:
+    - lighthouse-role
+

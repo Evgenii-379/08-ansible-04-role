@@ -1,0 +1,18 @@
+---
+all:
+  children:
+    clickhouse:
+      hosts:
+        clickhouse-01:
+          ansible_host: 84.201.141.95
+          ansible_user: evgenii_1
+    vector:
+      hosts:
+        vector-01:
+          ansible_host: 84.201.153.21
+          ansible_user: evgenii_2
+    lighthouse:
+      hosts:
+        lighthouse-01:
+          ansible_host: 84.201.152.172
+          ansible_user: evgenii_3
